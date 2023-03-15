@@ -1,0 +1,11 @@
+// Переменные
+$white: #F9F7F5;
+$primary: #BDB9B7;
+$cream: #F3EFEA;
+$black: #232323;
+
+@mixin tablet() {
+  @media only screen and (max-width: 768px) {
+    @content;
+  }
+}

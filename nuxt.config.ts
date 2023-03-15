@@ -7,5 +7,11 @@ export default defineNuxtConfig({
     ],
     build: {
         transpile: ['vuetify']
-    }
+    },
+    plugins: [
+        './plugins/helpers/is-mobile.client'
+    ],
+    modules: [['nuxt-swiper', {
+        // Swiper options
+    }]]
 })

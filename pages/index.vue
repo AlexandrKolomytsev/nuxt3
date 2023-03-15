@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex justify-space-around mt-10">
+  <div class="d-flex justify-space-around mt-16">
     <v-color-picker
         v-model="c1"
         hide-canvas
