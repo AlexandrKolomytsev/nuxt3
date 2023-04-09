@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "OptimusPrincepsCyr";
+  src:
+    url('@/assets/fonts/OptimusPrincepsCyr.woff2') format("woff2"),
+    url('@/assets/fonts/OptimusPrincepsCyr.woff') format("woff"),
+    url('@/assets/fonts/OptimusPrincepsCyr.ttf') format("ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}

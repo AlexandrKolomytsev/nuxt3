@@ -82,6 +82,7 @@ watch(isMobile, ()=>{
 .header-wrapper {
   position: sticky;
   top: 0;
+  z-index: 2000;
 }
 
 .header {
